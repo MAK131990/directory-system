@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#sidebar{
+    width:20vw;
+    float:left;
+    height:95vh;
+    background-color: lightskyblue;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+#header{
+    width:95vw;
+    height:10vh;
+    background-color:white;
+}
+
+#main{
+    width:75vw;
+    height:95vh;
+    max-height: 95vh;
+    overflow-y: scroll;
+    float: left;
+    background-color:white;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+.AddFolder{
+    position: absolute;
+    text-align: center;
+    top: 1vh;
+    left: .5vw;
+    z-index: 200;
+    background-color: lightskyblue;
+    height: 11vh;
+    width: 19.9vw;
+    font-size: xx-large;
+    border-radius: 1%;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+
+.row {
+    line-height:24pt;
+}
+
+.row:nth-child(odd) {
+    background: lightsteelblue;
+}
+
+.FolderText{
+    border-radius: 4%;
+    height: 5vh;
+    width: 15vw;
+    font-size: large;
+}
+.button{
+    background-color: mediumseagreen;
+    margin-left: 6%;
+    width: 4vw;
+    font-size: large
+}
+img{
+    height:3vh;
+    width:2vw;
+    margin-left: 2%;
+}
